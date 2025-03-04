@@ -18,53 +18,6 @@
     background-color: var(--orange);
 }
 
-.register{
-    background-color: var(--bckgWhite);
-    grid-column: 4;
-    width: 70px;
-}
-
-.login{
-    grid-column: 3;
-    color: var(--bckgWhite);
-    width: 70px;
-}
-
-.profile{
-    content: url(/img/user-circle.svg);
-    grid-column: 5;
-    background-color: white;
-}
-
-.compactMenu{
-    grid-column: 6;
-    background-color: var(--bckgWhite);
-}
-
-.navBar{
-    display: flex;
-    border: 2px solid black;
-    height: 40px ;
-    position: sticky;
-    justify-content: space-between;
-}
-
-.rightNav{
-    justify-content: space-evenly;
-    padding: 9px;
-}
-
-.mainImage{
-    content: url("/img/image\ 9.svg");
-    height: 40px;
-    aspect-ratio: 1/1;
-    background-repeat: no-repeat;
-    background-position: center;
-    grid-row: inherit;
-    grid-column: 1;
-    padding-left: var(--padding-label);
-}
-
 .label{
     border-left: var(--border-label);
     padding-left: var(--padding-label);
