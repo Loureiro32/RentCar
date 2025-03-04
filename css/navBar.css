@@ -1,0 +1,47 @@
+@import url("style.css");
+
+.navBar{
+    display: flex;
+    border: 2px solid black;
+    height: 40px ;
+    position: sticky;
+    justify-content: space-between;
+}
+
+.rightNav{
+    justify-content: space-evenly;
+}
+
+.register{
+    background-color: var(--bckgWhite);
+    width: 70px;
+}
+
+.login{
+    color: var(--bckgWhite);
+    width: 70px;
+}
+
+.buttonProfile{
+    background-image: url("/img/user-circle.svg");
+    background-color: var(--bckgWhite);
+    aspect-ratio: 1/1;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 64px;
+    width: 64px;
+}
+
+.compactMenu{
+    background-color: var(--bckgWhite);
+}
+
+
+.mainImage{
+    content: url("/img/image\ 9.svg");
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: var(--padding-label);
+}
+
