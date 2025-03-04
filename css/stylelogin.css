@@ -1,0 +1,30 @@
+@import url("./css/style.css");
+
+
+.main{
+
+}
+
+.loginRegister{
+    display: flex;
+    width: 620px;
+    justify-content: center;
+}
+
+.log, .reg{
+    box-sizing: border-box;
+    padding: var(--padding-label);
+    padding-block-start: 0px;
+    padding-block-end: 0px;
+    font-size: 24px;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+
+.reg{
+    border-left: var(--border-label);;
+}
+
+
+
+
