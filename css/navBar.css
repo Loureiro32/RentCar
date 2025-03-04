@@ -1,14 +1,18 @@
 @import url("style.css");
 .navBar{
     display: flex;
-    border: 2px solid black;
     height: 40px ;
-    position: sticky;
+    position: fixed;
     justify-content: space-between;
+    width: 100%;
+    background-color: var(--bckg-grey);
+     margin-top: 10px;
+    z-index: 100;
 }
 
 .rightNav{
     justify-content: space-evenly;
+    justify-items: center;
 }
 
 .register{
@@ -22,20 +26,17 @@
 }
 
 .buttonProfile{
-    background-image: url("/img/user-circle.svg");
+    content: url("/img/user-circle.svg");
     background-color: var(--bckgWhite);
     aspect-ratio: 1/1;
     background-repeat: no-repeat;
     background-position: center;
-    height: 64px;
-    width: 64px;
-}
+    height: 40px;
+   }
 
 .compactMenu{
     background-color: var(--bckgWhite);
 }
-
-
 .mainImage{
     content: url("/img/image\ 9.svg");
     height: 40px;
